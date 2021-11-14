@@ -1,0 +1,31 @@
+.button {
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  width: 30px;
+  cursor: pointer;
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.btn-auth {
+  border-radius: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 12px;
+  height: 35px !important;
+}
+.btn-green {
+  background: #51e0b0;
+  border: none;
+  transition: all .6s;
+  color: #232331;
+}
+.btn {
+  box-shadow: none!important;
+}
